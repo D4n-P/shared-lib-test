@@ -1,5 +1,5 @@
 def call() {
-    sh "echo ===== Setup ====="
+    sh "echo ===== Setup SCA ====="
     sh "rm dependency-check* || true"
     sh "wget https://github.com/jeremylong/DependencyCheck/releases/download/v7.2.1/dependency-check-7.2.1-release.zip"
     unzip zipFile: 'dependency-check-7.2.1-release.zip'
